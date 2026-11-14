@@ -1,0 +1,56 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Production Build Artifacts
+dist
+dist-ssr
+build
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+*.env
+*.pem
+*.key
+*.cert
+*.crt
+
+# Build Caches & Test Outputs
+.cache
+.vite
+coverage
+test-results
+.playwright
+
+# Local & OS files
+.DS_Store
+Thumbs.db
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local test scratch scripts and large raw telemetry dumps
+RAW_PER_AGV_PER_TICK_TELEMETRY.csv
+browser_demo_results.json
+runBrowserDemoVerification.cjs
+GITHUB_DOCUMENTATION_UPLOAD_REPORT.md

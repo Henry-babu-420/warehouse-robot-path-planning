@@ -1,0 +1,11 @@
+Metric,Baseline_Configuration_A,Improved_Traffic_Configuration_B,Absolute_Change,Relative_Improvement_Percent
+"Completed Deliveries",12,8,-4,-33.3%
+"Max Consecutive Motionless Ticks",418,432,14,3.3%
+"Confirmed Starved AGVs (>= 60 ticks)",10,10,0,0.0%
+"Failed Replanning Attempts",3227,205,-3022,-93.6%
+"Successful Replanning Attempts",961,1294,333,34.7%
+"Total Replanning Actions",4188,1499,-2689,-64.2%
+"Fleet Cumulative Waiting Ticks",992,1306,314,31.7%
+"Unique Deadlock Cycle Episodes",10,2,-8,-80.0%
+"Unresolved Stalls",46,17,-29,-63.0%
+"Physical Collisions (Safety Violations)",0,0,0,N/A

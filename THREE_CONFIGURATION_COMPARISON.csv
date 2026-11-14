@@ -1,0 +1,12 @@
+Metric,Config_A_Baseline,Config_B_OneWay,Config_C_DualLane_Bypass,Change_C_vs_A,Change_C_vs_B
+"Completed Deliveries",13,11,10,-3.0,-1.0
+"Fleet Cumulative Waiting Ticks",1580,936,2466,886.0,1530.0
+"Max Consecutive Motionless Ticks",416,445,411,-5.0,-34.0
+"Confirmed Starved AGVs (>= 60 ticks)",10,10,10,0.0,0.0
+"Failed Replanning Attempts",2630,270,161,-2469.0,-109.0
+"Successful Replanning Attempts",1568,921,2443,875.0,1522.0
+"Total Replanning Actions",4198,1191,2604,-1594.0,1413.0
+"Unique Deadlock Cycle Episodes",8,1,2,-6.0,1.0
+"Unresolved Stalls",45,34,27,-18.0,-7.0
+"Average Path Length Snapshot",1.5,1.4,7.1,5.6,5.7
+"Physical Collision Violations",0,0,0,0.0,0.0

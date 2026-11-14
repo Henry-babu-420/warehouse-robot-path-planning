@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" style="background-color: #12161f; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+    <rect width="800" height="450" fill="#12161f" rx="8" />
+    <text x="400" y="32" fill="#e2e8f0" font-size="16" font-weight="600" text-anchor="middle">Planning Time Scaling &amp; Empirical Tail Variance (1 - 10 AGVs)</text>
+    <text x="400" y="50" fill="#a0aec0" font-size="11" text-anchor="middle">Mean (with ±1σ bounds), Median, and Observed Peak Latency across 60 Runs</text>
+    
+    <line x1="70" y1="390" x2="760" y2="390" stroke="#2a3342" stroke-dasharray="4" /><text x="60" y="394" fill="#718096" font-size="11" text-anchor="end" font-family="monospace">0 ms</text><line x1="70" y1="324" x2="760" y2="324" stroke="#2a3342" stroke-dasharray="4" /><text x="60" y="328" fill="#718096" font-size="11" text-anchor="end" font-family="monospace">100 ms</text><line x1="70" y1="258" x2="760" y2="258" stroke="#2a3342" stroke-dasharray="4" /><text x="60" y="262" fill="#718096" font-size="11" text-anchor="end" font-family="monospace">200 ms</text><line x1="70" y1="192" x2="760" y2="192" stroke="#2a3342" stroke-dasharray="4" /><text x="60" y="196" fill="#718096" font-size="11" text-anchor="end" font-family="monospace">300 ms</text><line x1="70" y1="126" x2="760" y2="126" stroke="#2a3342" stroke-dasharray="4" /><text x="60" y="130" fill="#718096" font-size="11" text-anchor="end" font-family="monospace">400 ms</text><line x1="70" y1="60" x2="760" y2="60" stroke="#2a3342" stroke-dasharray="4" /><text x="60" y="64" fill="#718096" font-size="11" text-anchor="end" font-family="monospace">500 ms</text><text x="70" y="410" fill="#cbd5e0" font-size="12" text-anchor="middle" font-family="sans-serif">1 AGVs</text><text x="208" y="410" fill="#cbd5e0" font-size="12" text-anchor="middle" font-family="sans-serif">2 AGVs</text><text x="346" y="410" fill="#cbd5e0" font-size="12" text-anchor="middle" font-family="sans-serif">4 AGVs</text><text x="484" y="410" fill="#cbd5e0" font-size="12" text-anchor="middle" font-family="sans-serif">6 AGVs</text><text x="622" y="410" fill="#cbd5e0" font-size="12" text-anchor="middle" font-family="sans-serif">8 AGVs</text><text x="760" y="410" fill="#cbd5e0" font-size="12" text-anchor="middle" font-family="sans-serif">10 AGVs</text>
+    <line x1="70" y1="389.9564154614658" x2="70" y2="389.86776053853424" stroke="#4fd1c5" stroke-width="2" /><line x1="66" y1="389.86776053853424" x2="74" y2="389.86776053853424" stroke="#4fd1c5" stroke-width="2" /><line x1="66" y1="389.9564154614658" x2="74" y2="389.9564154614658" stroke="#4fd1c5" stroke-width="2" /><circle cx="70" cy="389.81454" r="3" fill="#f56565" /><circle cx="70" cy="389.96502" r="3" fill="#68d391" /><line x1="208" y1="389.88839489438396" x2="208" y2="389.74174110561603" stroke="#4fd1c5" stroke-width="2" /><line x1="204" y1="389.74174110561603" x2="212" y2="389.74174110561603" stroke="#4fd1c5" stroke-width="2" /><line x1="204" y1="389.88839489438396" x2="212" y2="389.88839489438396" stroke="#4fd1c5" stroke-width="2" /><circle cx="208" cy="389.65812" r="3" fill="#f56565" /><circle cx="208" cy="389.901" r="3" fill="#68d391" /><line x1="346" y1="378.3199500932592" x2="346" y2="362.5072019067408" stroke="#4fd1c5" stroke-width="2" /><line x1="342" y1="362.5072019067408" x2="350" y2="362.5072019067408" stroke="#4fd1c5" stroke-width="2" /><line x1="342" y1="378.3199500932592" x2="350" y2="378.3199500932592" stroke="#4fd1c5" stroke-width="2" /><circle cx="346" cy="354.67086" r="3" fill="#f56565" /><circle cx="346" cy="374.82924" r="3" fill="#68d391" /><line x1="484" y1="336.69340333140536" x2="484" y2="252.26365666859462" stroke="#4fd1c5" stroke-width="2" /><line x1="480" y1="252.26365666859462" x2="488" y2="252.26365666859462" stroke="#4fd1c5" stroke-width="2" /><line x1="480" y1="336.69340333140536" x2="488" y2="336.69340333140536" stroke="#4fd1c5" stroke-width="2" /><circle cx="484" cy="189.87611999999996" r="3" fill="#f56565" /><circle cx="484" cy="353.61288" r="3" fill="#68d391" /><line x1="622" y1="314.5238275374615" x2="622" y2="229.17901246253854" stroke="#4fd1c5" stroke-width="2" /><line x1="618" y1="229.17901246253854" x2="626" y2="229.17901246253854" stroke="#4fd1c5" stroke-width="2" /><line x1="618" y1="314.5238275374615" x2="626" y2="314.5238275374615" stroke="#4fd1c5" stroke-width="2" /><circle cx="622" cy="222.66096000000002" r="3" fill="#f56565" /><circle cx="622" cy="328.29132" r="3" fill="#68d391" /><line x1="760" y1="255.07379803678634" x2="760" y2="184.28330596321368" stroke="#4fd1c5" stroke-width="2" /><line x1="756" y1="184.28330596321368" x2="764" y2="184.28330596321368" stroke="#4fd1c5" stroke-width="2" /><line x1="756" y1="255.07379803678634" x2="764" y2="255.07379803678634" stroke="#4fd1c5" stroke-width="2" /><circle cx="760" cy="160.04808" r="3" fill="#f56565" /><circle cx="760" cy="262.73418" r="3" fill="#68d391" />
+
+    <!-- Max line -->
+    <polyline points="70,389.81454 208,389.65812 346,354.67086 484,189.87611999999996 622,222.66096000000002 760,160.04808" fill="none" stroke="#f56565" stroke-width="1.5" stroke-dasharray="3" />
+    <!-- Mean line -->
+    <polyline points="70,389.912088 208,389.815068 346,370.413576 484,294.47853 622,271.85142 760,219.67855200000002" fill="none" stroke="#3182ce" stroke-width="3" />
+    <!-- Median line -->
+    <polyline points="70,389.92047 208,389.83104 346,374.03526 484,297.15879 622,266.11602 760,220.88325" fill="none" stroke="#ed8936" stroke-width="2" />
+
+    <!-- Data points -->
+    <circle cx="70" cy="389.912088" r="5" fill="#3182ce" stroke="#e2e8f0" stroke-width="1.5" /><circle cx="208" cy="389.815068" r="5" fill="#3182ce" stroke="#e2e8f0" stroke-width="1.5" /><circle cx="346" cy="370.413576" r="5" fill="#3182ce" stroke="#e2e8f0" stroke-width="1.5" /><circle cx="484" cy="294.47853" r="5" fill="#3182ce" stroke="#e2e8f0" stroke-width="1.5" /><circle cx="622" cy="271.85142" r="5" fill="#3182ce" stroke="#e2e8f0" stroke-width="1.5" /><circle cx="760" cy="219.67855200000002" r="5" fill="#3182ce" stroke="#e2e8f0" stroke-width="1.5" />
+    <circle cx="70" cy="389.92047" r="4" fill="#ed8936" /><circle cx="208" cy="389.83104" r="4" fill="#ed8936" /><circle cx="346" cy="374.03526" r="4" fill="#ed8936" /><circle cx="484" cy="297.15879" r="4" fill="#ed8936" /><circle cx="622" cy="266.11602" r="4" fill="#ed8936" /><circle cx="760" cy="220.88325" r="4" fill="#ed8936" />
+
+    <!-- Legend -->
+    <g transform="translate(80, 70)">
+      <rect width="360" height="26" fill="#1a202c" rx="4" opacity="0.8" />
+      <line x1="10" y1="13" x2="30" y2="13" stroke="#3182ce" stroke-width="3" />
+      <circle cx="20" cy="13" r="4" fill="#3182ce" />
+      <text x="35" y="17" fill="#cbd5e0" font-size="11">Mean</text>
+
+      <line x1="85" y1="13" x2="105" y2="13" stroke="#ed8936" stroke-width="2" />
+      <circle cx="95" cy="13" r="3" fill="#ed8936" />
+      <text x="110" y="17" fill="#cbd5e0" font-size="11">Median</text>
+
+      <line x1="165" y1="13" x2="185" y2="13" stroke="#f56565" stroke-width="1.5" stroke-dasharray="3" />
+      <circle cx="175" cy="13" r="3" fill="#f56565" />
+      <text x="190" y="17" fill="#cbd5e0" font-size="11">Max Observed</text>
+
+      <line x1="280" y1="7" x2="280" y2="19" stroke="#4fd1c5" stroke-width="2" />
+      <text x="290" y="17" fill="#cbd5e0" font-size="11">±1σ Error</text>
+    </g>
+  </svg>

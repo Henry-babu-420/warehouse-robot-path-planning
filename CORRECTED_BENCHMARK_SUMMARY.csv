@@ -1,0 +1,7 @@
+RobotCount,RunsCount,MeanPlanningTimeMs,MedianPlanningTimeMs,MinPlanningTimeMs,MaxPlanningTimeMs,StdDevPlanningTimeMs,MeanExpandedNodes,StdDevExpandedNodes,MeanPathLength,MeanMakespanTicks,MeanWaitingTimeTicks,StdDevWaitingTimeTicks,MeanReplanningCount,TotalCompletedTasksAcrossAllRuns,MeanCompletedTasksPerRun,RunCompletionRatePct,TotalInitialPlanningAttempts,FailedInitialPlanningAttempts,InitialPlanningSuccessRatePct
+1,10,0.13,0.12,0.05,0.28,0.07,25,15,11.0,10.7,0.0,0.0,0.0,4,0.40,40.0%,10,0,100.0%
+2,10,0.28,0.26,0.15,0.52,0.11,58,28,12.2,16.8,0.0,0.0,0.2,7,0.70,60.0%,20,0,100.0%
+4,10,29.68,24.19,22.99,53.53,11.98,8097,36,13.0,17.6,0.7,0.9,13.0,8,0.80,60.0%,40,10,75.0%
+6,10,144.73,140.67,55.13,303.22,63.96,20903,5562,12.1,17.6,1.9,1.6,36.7,10,1.00,80.0%,60,26,56.7%
+8,10,179.01,187.70,93.50,253.54,64.66,28117,10104,10.8,18.0,10.8,11.9,59.6,13,1.30,90.0%,80,35,56.3%
+10,10,258.06,256.24,192.83,348.41,53.63,39326,8757,10.5,17.5,43.5,15.9,107.4,16,1.60,90.0%,100,49,51.0%
