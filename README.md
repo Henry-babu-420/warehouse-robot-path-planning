@@ -282,8 +282,8 @@ For in-depth technical specifications, please consult the dedicated documentatio
 
 ## 16. Author Information
 
-- **Author:** Jeet Nag
-- **GitHub Profile:** [@Henry-babu-420](https://github.com/Henry-babu-420)
+- **Author:** Jeet Nag, Rohit Pradeep Shinde
+- **GitHub Profile:** [@Henry-babu-420](https://github.com/Henry-babu-420), [@Dark-Techie](https://github.com/Dark-Techie)
 - **Repository:** [https://github.com/Henry-babu-420/warehouse-robot-path-planning](https://github.com/Henry-babu-420/warehouse-robot-path-planning)
 - **Academic Context:** Autonomous Warehouse Robot Path Planning & Collision Avoidance Simulator (B.Tech Computer Science & Engineering Final Year Project).
 - **License:** [MIT License](LICENSE)
