@@ -29,23 +29,15 @@ The application is a pure client-side Single Page Application (SPA) requiring no
   - `dist/index.html` (Entry point)
   - `dist/assets/index-*.js` (Minified production bundle)
   - `dist/assets/index-*.css` (Compiled stylesheet)
-  - `dist/_redirects` (SPA route fallback rule)
   - `dist/_headers` (Browser caching & security headers)
   - `dist/favicon.svg`, `dist/vite.svg`, `dist/icons.svg` (Static assets)
 
 ---
 
-## 3. Deployment Configuration Files
+## 3. Deployment Configuration & Headers
 
-To guarantee smooth operation on Cloudflare Pages, the following configuration files have been added to the `public/` directory (automatically bundled into `dist/` on build):
-
-### 3.1 SPA Direct URL Refresh (`public/_redirects`)
-In Single Page Applications, direct browser navigation to deep paths or refreshing sub-views can trigger a 404 error if the host server tries to locate a physical file. Cloudflare Pages uses `_redirects` with HTTP status `200` to internally rewrite all non-file paths to `index.html`:
-
-```
-/*    /index.html   200
-```
-This ensures direct bookmarks, page reloads, and browser history navigation work seamlessly.
+### 3.1 State-Based Navigation (No `_redirects` Needed)
+This application uses React state-based navigation (`currentTab`, `activeCenterView`) rather than URL-based browser history routing. No `_redirects` file is required. Wildcard rules like `/* /index.html 200` are strictly omitted to prevent recursive infinite redirect loops on Cloudflare Pages.
 
 ### 3.2 Asset Caching & Security Headers (`public/_headers`)
 Static production chunks in Vite have content-hashed filenames (`index-L667K-Cb.js`). The `_headers` file instructs Cloudflare to cache these assets immutably for 1 year while enforcing security headers on all pages:
